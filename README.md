@@ -14,8 +14,8 @@ Pour executer ce projet:
 
 1.  Ajouter des conversations que tu veux dans le fichier `messages.json` :
 
-    - `tag` - represente labels de cette conversation
-    - `patterns` - represente les mots que tu écris et on va analyser ces mots pour répondre
+    - `label` - represente labels de cette conversation
+    - `inputWords` - represente les mots que tu écris et on va analyser ces mots pour répondre
     - `responses` - la liste des réponses possibles
 
 2.  Lancer dans Terminal:

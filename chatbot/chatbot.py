@@ -40,20 +40,20 @@ output = []
 out_empty = [0 for _ in range(len(words_labels))]
 
 for x, doc in enumerate(docs_x):
-    bag = []
+    container = []
 
     wrds = [stemmer.stem(w.lower()) for w in doc]
 
     for w in words:
         if w in wrds:
-            bag.append(1)
+            container.append(1)
         else:
-            bag.append(0)
+            container.append(0)
 
     output_row = out_empty[:]
     output_row[words_labels.index(docs_y[x])] = 1
 
-    training.append(bag)
+    training.append(container)
     output.append(output_row)
 
 training = numpy.array(training)
@@ -75,7 +75,7 @@ model.save("model.tflearn")
 
 
 def wordsContainer(s, words):
-    bag = [0 for _ in range(len(words))]
+    container = [0 for _ in range(len(words))]
 
     s_words = nltk.word_tokenize(s)
     s_words = [stemmer.stem(word.lower()) for word in s_words]
@@ -83,9 +83,9 @@ def wordsContainer(s, words):
     for se in s_words:
         for i, w in enumerate(words):
             if w == se:
-                bag[i] = 1
+                container[i] = 1
             
-    return numpy.array(bag)
+    return numpy.array(container)
 
 
 def lauchConversation():

@@ -1,5 +1,5 @@
 
-from imutils import paths #imutils includes opencv functions
+from imutils import paths 
 import face_recognition
 import cv2
 import numpy as np
@@ -97,3 +97,4 @@ def launchCamera():
     cv2.destroyAllWindows()
 
 launchCamera()
+
