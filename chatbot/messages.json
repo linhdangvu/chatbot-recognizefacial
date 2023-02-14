@@ -1,0 +1,50 @@
+{
+  "messages": [
+    {
+      "label": "pasderesponse",
+      "inputWords": [""],
+      "responses": [
+        "Pourriez-vous répéter, s'il vous plaît?",
+        "Désolé, je ne comprends pas"
+      ]
+    },
+    {
+      "label": "salutation",
+      "inputWords": [
+        "Bonjour",
+        "Salut",
+        "Bonne journée",
+        "Ca va?",
+        "Hi",
+        "Hello",
+        "Hey"
+      ],
+      "responses": ["Bonjour"]
+    },
+    {
+      "label": "sante",
+      "inputWords": ["Ca va?"],
+      "responses": ["Ca va?"]
+    },
+    {
+      "label": "revoir",
+      "inputWords": ["Au revoir", "A bientôt", "bye", "goodbye"],
+      "responses": ["Au revoir", "A bientôt"]
+    },
+    {
+      "label": "merci",
+      "inputWords": ["Merci", "Merci beaucoup"],
+      "responses": ["De rien", "Il n'y a pas de quoi"]
+    },
+    {
+      "label": "temps",
+      "inputWords": ["Quel temps est-il ?", "temps", "weather"],
+      "responses": ["Il fait beau aujourd'hui"]
+    },
+    {
+      "label": "name",
+      "inputWords": ["nom ?", "Tu t'appelles comment ?", "Votre nom ?", "name"],
+      "responses": ["Je m'appelle Linh"]
+    }
+  ]
+}
