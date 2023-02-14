@@ -1,6 +1,6 @@
 ### Reconnaissance facial
 
-Pour executer ce projet:
+Ce projet est dans le dossier projectFace, pour executer ce projet:
 
 1.  Ajouter des images que tu connais des persons dedans
 2.  Lancer dans Terminal:
@@ -10,7 +10,7 @@ Pour executer ce projet:
 
 ### Chatbot
 
-Pour executer ce projet:
+Ce projet est dans le dossier chatbot, pour executer ce projet:
 
 1.  Ajouter des conversations que tu veux dans le fichier `messages.json` :
 
@@ -22,3 +22,5 @@ Pour executer ce projet:
 
     - ` $ cd chatbot`
     - ` $ python3 chatbot.py`
+
+Les données pour répondre est dans `messages.json`
